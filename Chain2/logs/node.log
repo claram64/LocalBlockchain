@@ -1,0 +1,107 @@
+INFO [02-06|13:23:31.190] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [02-06|13:23:31.190] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [02-06|13:23:31.192] Starting peer-to-peer node               instance=Geth/v1.9.10-stable-58cf5686/linux-amd64/go1.13.6
+INFO [02-06|13:23:31.192] Allocated trie memory caches             clean=256.00MiB dirty=256.00MiB
+INFO [02-06|13:23:31.192] Allocated cache and file handles         database="/home/clara/Desktop/projects /privateEthChain-master/Chain2/data/geth/chaindata" cache=512.00MiB handles=2048
+INFO [02-06|13:23:31.522] Opened ancient database                  database="/home/clara/Desktop/projects /privateEthChain-master/Chain2/data/geth/chaindata/ancient"
+INFO [02-06|13:23:31.523] Initialised chain configuration          config="{ChainID: 4554 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: <nil> Constantinople: <nil> Petersburg: <nil> Istanbul: <nil>, Muir Glacier: <nil>, Engine: unknown}"
+INFO [02-06|13:23:31.523] Disk storage enabled for ethash caches   dir="/home/clara/Desktop/projects /privateEthChain-master/Chain2/data/geth/ethash" count=3
+INFO [02-06|13:23:31.523] Disk storage enabled for ethash DAGs     dir=/home/clara/.ethash count=2
+INFO [02-06|13:23:31.523] Initialising Ethereum protocol           versions="[64 63]" network=8496 dbversion=<nil>
+WARN [02-06|13:23:31.523] Upgrade blockchain database version      from=<nil> to=7
+INFO [02-06|13:23:31.523] Loaded most recent local header          number=0 hash=e9005b…c6a870 td=512 age=50y9mo4w
+INFO [02-06|13:23:31.523] Loaded most recent local full block      number=0 hash=e9005b…c6a870 td=512 age=50y9mo4w
+INFO [02-06|13:23:31.524] Loaded most recent local fast block      number=0 hash=e9005b…c6a870 td=512 age=50y9mo4w
+INFO [02-06|13:23:31.524] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [02-06|13:23:31.533] Allocated fast sync bloom                size=512.00MiB
+INFO [02-06|13:23:31.533] Initialized fast sync bloom              items=0 errorrate=0.000 elapsed=35.686µs
+INFO [02-06|13:23:31.633] New local node record                    seq=1 id=9afb8c9f67642b22 ip=127.0.0.1 udp=0 tcp=30320
+INFO [02-06|13:23:31.633] Started P2P networking                   self="enode://590ca3bb1e865f5325a47f1594fc2c344513448cd8c0748a9ce21b3435cfd252ea34dff626d9f858786abd968dcf701117b96c124b88c8d1269a57a0eef2ddae@127.0.0.1:30320?discport=0"
+INFO [02-06|13:23:31.633] IPC endpoint opened                      url=data/geth.ipc
+INFO [02-06|13:23:31.633] HTTP endpoint opened                     url=http://127.0.0.1:8563 cors=* vhosts=localhost
+WARN [02-06|13:23:31.682] Served eth_coinbase                      reqid=3 t=30.871µs err="etherbase must be explicitly specified"
+INFO [02-06|13:25:21.632] Block synchronisation started 
+INFO [02-06|13:25:21.648] Imported new state entries               count=1 elapsed=1.825ms  processed=1 pending=0 retry=0 duplicate=0 unexpected=0
+INFO [02-06|13:25:22.350] Imported new block headers               count=192 elapsed=582.564ms number=192 hash=71064d…8bd231 age=24m17s
+INFO [02-06|13:25:22.355] Imported new block receipts              count=66  elapsed=533.095µs number=66  hash=11c472…272b6a age=29m32s   size=264.00B
+INFO [02-06|13:25:22.359] Imported new block receipts              count=126 elapsed=766.772µs number=192 hash=71064d…8bd231 age=24m17s   size=2.33KiB
+INFO [02-06|13:25:22.373] Imported new block headers               count=192 elapsed=18.768ms  number=384 hash=fe734f…433de5 age=21m4s
+INFO [02-06|13:25:22.381] Imported new block receipts              count=192 elapsed=1.992ms   number=384 hash=fe734f…433de5 age=21m4s    size=768.00B
+INFO [02-06|13:25:22.415] Imported new block headers               count=576 elapsed=33.896ms  number=960 hash=9b57dc…38f046 age=11m18s
+INFO [02-06|13:25:22.501] Imported new block receipts              count=576 elapsed=66.658ms  number=960 hash=9b57dc…38f046 age=11m18s   size=2.25KiB
+INFO [02-06|13:25:22.510] Imported new block headers               count=116 elapsed=92.107ms  number=1076 hash=a80fc5…a5e585 age=8m29s
+INFO [02-06|13:25:22.515] Imported new block receipts              count=53  elapsed=563.239µs number=1013 hash=b442dd…3f6773 age=10m21s   size=212.00B
+INFO [02-06|13:25:22.516] Imported new state entries               count=1   elapsed=518.317µs processed=2 pending=0 retry=0 duplicate=0 unexpected=0
+INFO [02-06|13:25:22.516] Imported new block receipts              count=1   elapsed=65.39µs   number=1014 hash=1ded92…097d80 age=10m20s   size=4.00B
+INFO [02-06|13:25:22.516] Committed new head block                 number=1014 hash=1ded92…097d80
+INFO [02-06|13:25:22.613] Deallocated fast sync bloom              items=2 errorrate=0.000
+INFO [02-06|13:25:22.620] Imported new chain segment               blocks=62 txs=0 mgas=0.000 elapsed=6.420ms   mgasps=0.000 number=1076 hash=a80fc5…a5e585 age=8m29s    dirty=14.89KiB
+INFO [02-06|13:25:25.383] Imported new block headers               count=2   elapsed=7.072ms   number=1078 hash=43562d…bb887d age=8m30s
+INFO [02-06|13:25:25.384] Imported new chain segment               blocks=2  txs=0 mgas=0.000 elapsed=294.129µs mgasps=0.000 number=1078 hash=43562d…bb887d age=8m30s    dirty=15.38KiB
+INFO [02-06|13:25:25.384] Fast sync complete, auto disabling 
+INFO [02-06|13:26:11.144] Updated mining threads                   threads=8
+INFO [02-06|13:26:11.144] Transaction pool price threshold updated price=1000000000
+ERROR[02-06|13:26:11.144] Cannot start mining without etherbase    err="etherbase must be explicitly specified"
+WARN [02-06|13:26:11.144] Served miner_start                       reqid=14 t=360.984µs err="etherbase missing: etherbase must be explicitly specified"
+INFO [02-06|13:26:24.801] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=3.872ms   mgasps=0.000 number=1079 hash=ff3ca3…f974b3 dirty=15.62KiB
+INFO [02-06|13:26:24.913] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=2.789ms   mgasps=0.000 number=1080 hash=98f315…3c3601 dirty=15.86KiB
+INFO [02-06|13:26:24.913] Mining too far in the future             wait=2s
+INFO [02-06|13:26:27.121] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=4.554ms   mgasps=0.000 number=1081 hash=9ba09f…6da701 dirty=16.10KiB
+INFO [02-06|13:26:27.176] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=4.764ms   mgasps=0.000 number=1082 hash=3d9c81…8e2947 dirty=16.34KiB
+INFO [02-06|13:26:28.117] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=4.182ms   mgasps=0.000 number=1083 hash=c40219…acc5a5 dirty=16.58KiB
+INFO [02-06|13:26:28.927] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=3.691ms   mgasps=0.000 number=1084 hash=866449…1482f5 dirty=16.82KiB
+INFO [02-06|13:26:28.927] Mining too far in the future             wait=2s
+INFO [02-06|13:26:32.783] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=4.429ms   mgasps=0.000 number=1085 hash=1ac5b4…3e0fae dirty=17.06KiB
+INFO [02-06|13:26:33.138] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=4.732ms   mgasps=0.000 number=1086 hash=154469…ed2909 dirty=17.30KiB
+INFO [02-06|13:26:34.212] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=4.481ms   mgasps=0.000 number=1087 hash=1ae003…58ffed dirty=17.54KiB
+INFO [02-06|13:26:34.742] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=4.631ms   mgasps=0.000 number=1088 hash=7e7c35…94082d dirty=17.78KiB
+INFO [02-06|13:26:35.081] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=4.536ms   mgasps=0.000 number=1089 hash=090ec2…f296a6 dirty=18.02KiB
+INFO [02-06|13:26:35.097] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=2.832ms   mgasps=0.000 number=1090 hash=e4b1f4…936d3a dirty=18.26KiB
+INFO [02-06|13:26:35.097] Mining too far in the future             wait=2s
+INFO [02-06|13:26:37.673] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=4.530ms   mgasps=0.000 number=1091 hash=9a6f64…737258 dirty=18.50KiB
+INFO [02-06|13:26:37.836] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=2.923ms   mgasps=0.000 number=1092 hash=5294f1…0e6e4c dirty=18.74KiB
+INFO [02-06|13:26:37.836] Mining too far in the future             wait=2s
+INFO [02-06|13:26:40.153] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=4.724ms   mgasps=0.000 number=1093 hash=66c7b0…371924 dirty=18.98KiB
+INFO [02-06|13:26:40.254] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=4.541ms   mgasps=0.000 number=1094 hash=b4389a…104cb0 dirty=19.22KiB
+INFO [02-06|13:26:40.677] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=2.862ms   mgasps=0.000 number=1095 hash=59436f…20e62a dirty=19.46KiB
+INFO [02-06|13:26:40.677] Mining too far in the future             wait=2s
+INFO [02-06|13:26:43.318] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=5.565ms   mgasps=0.000 number=1096 hash=d0d0aa…4bde96 dirty=19.70KiB
+INFO [02-06|13:26:43.477] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=4.738ms   mgasps=0.000 number=1097 hash=b2f487…356fea dirty=19.94KiB
+INFO [02-06|13:26:43.515] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=3.269ms   mgasps=0.000 number=1098 hash=b9d7da…3f5855 dirty=20.18KiB
+INFO [02-06|13:26:43.515] Mining too far in the future             wait=2s
+INFO [02-06|13:26:47.064] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=4.424ms   mgasps=0.000 number=1099 hash=52dc7d…ead8de dirty=20.42KiB
+INFO [02-06|13:26:48.301] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=4.525ms   mgasps=0.000 number=1100 hash=bbecc6…539a31 dirty=20.66KiB
+INFO [02-06|13:26:48.586] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=4.494ms   mgasps=0.000 number=1101 hash=b7314e…d7832b dirty=20.90KiB
+INFO [02-06|13:26:50.218] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=4.661ms   mgasps=0.000 number=1102 hash=4d99c9…df3087 dirty=21.14KiB
+INFO [02-06|13:26:50.392] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=4.684ms   mgasps=0.000 number=1103 hash=1a463e…46b740 dirty=21.38KiB
+INFO [02-06|13:26:51.124] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=4.624ms   mgasps=0.000 number=1104 hash=a9808a…e1b141 dirty=21.62KiB
+INFO [02-06|13:26:52.556] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=4.572ms   mgasps=0.000 number=1105 hash=f020e0…812ac7 dirty=21.86KiB
+INFO [02-06|13:26:52.726] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=3.750ms   mgasps=0.000 number=1106 hash=c613ed…496578 dirty=22.10KiB
+INFO [02-06|13:26:52.726] Mining too far in the future             wait=2s
+INFO [02-06|13:26:54.868] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=4.415ms   mgasps=0.000 number=1107 hash=89acdf…130c6b dirty=22.34KiB
+INFO [02-06|13:26:55.077] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=4.554ms   mgasps=0.000 number=1108 hash=0107c1…c6ef5c dirty=22.58KiB
+INFO [02-06|13:26:55.381] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=3.077ms   mgasps=0.000 number=1109 hash=438b0f…65cef2 dirty=22.82KiB
+INFO [02-06|13:26:55.381] Mining too far in the future             wait=2s
+INFO [02-06|13:26:57.408] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=4.564ms   mgasps=0.000 number=1110 hash=5e3c1f…90467d dirty=23.06KiB
+INFO [02-06|13:26:58.490] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=4.186ms   mgasps=0.000 number=1111 hash=836d08…374ddd dirty=23.30KiB
+INFO [02-06|13:26:58.520] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=2.824ms   mgasps=0.000 number=1112 hash=8e66d3…6970a1 dirty=23.54KiB
+INFO [02-06|13:26:58.520] Mining too far in the future             wait=2s
+INFO [02-06|13:27:00.947] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=4.565ms   mgasps=0.000 number=1113 hash=972ba5…c9473d dirty=23.78KiB
+INFO [02-06|13:27:02.951] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=4.408ms   mgasps=0.000 number=1114 hash=cbcd37…d7030a dirty=24.02KiB
+INFO [02-06|13:27:03.019] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=4.701ms   mgasps=0.000 number=1115 hash=970256…34f728 dirty=24.26KiB
+INFO [02-06|13:27:03.494] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=4.815ms   mgasps=0.000 number=1116 hash=1ad92e…51ba1c dirty=24.50KiB
+INFO [02-06|13:27:04.260] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=3.837ms   mgasps=0.000 number=1117 hash=178261…f365fd dirty=24.74KiB
+INFO [02-06|13:27:04.663] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=2.833ms   mgasps=0.000 number=1118 hash=251000…0daa39 dirty=24.98KiB
+INFO [02-06|13:27:04.663] Mining too far in the future             wait=2s
+INFO [02-06|13:27:06.679] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=4.592ms   mgasps=0.000 number=1119 hash=a90674…2831e9 dirty=25.22KiB
+INFO [02-06|13:27:06.788] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=2.944ms   mgasps=0.000 number=1120 hash=b64f16…04ad85 dirty=25.46KiB
+INFO [02-06|13:27:06.788] Mining too far in the future             wait=2s
+INFO [02-06|13:27:08.838] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=4.450ms   mgasps=0.000 number=1121 hash=236c4c…15718b dirty=25.71KiB
+INFO [02-06|13:27:09.068] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=4.531ms   mgasps=0.000 number=1122 hash=1d1de7…327e93 dirty=25.95KiB
+INFO [02-06|13:27:09.555] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=3.773ms   mgasps=0.000 number=1123 hash=2cf78e…4113bb dirty=26.19KiB
+INFO [02-06|13:27:09.556] Mining too far in the future             wait=2s
+INFO [02-06|13:27:11.698] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=5.186ms   mgasps=0.000 number=1124 hash=6d2300…57cd5b dirty=26.43KiB
+INFO [02-06|13:27:11.759] Imported new chain segment               blocks=1  txs=0 mgas=0.000 elapsed=2.926ms   mgasps=0.000 number=1125 hash=fc70bc…323bf0 dirty=26.67KiB
+INFO [02-06|13:27:11.759] Mining too far in the future             wait=2s
+INFO [02-06|13:49:14.738] HTTP endpoint closed                     url=http://127.0.0.1:8563
+INFO [02-06|13:49:14.738] IPC endpoint closed                      url=data/geth.ipc

@@ -1,0 +1,1 @@
+geth --datadir=./data/ --networkid 8496 --rpc --rpcport 8564 --port 30321 --rpcaddr 127.0.0.1 --allow-insecure-unlock --ipcpath=./data/geth.ipc --rpccorsdomain "*" --rpcapi admin,eth,web3,personal,net --nodiscover console 2> logs/node.log

@@ -1,0 +1,7 @@
+net.peerCount
+admin.addPeer("enode://db700cb709ea25e1a4215c7eb54d7830d6234d5bcf90a274fad9f6332bd1a078c058fe75386b92536c338728159ab3a9227b6873c53653d6cd8fa27e2a5367a6@127.0.0.1:30321?discport=0")
+admin.peers
+net.peerCount
+eth.blockNumber
+miner.start()
+eth.blockNumber
